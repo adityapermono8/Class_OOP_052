@@ -5,6 +5,7 @@ class Mahasiswa {
 private:		
 	int nim;
 	string nama;
+
 public:
 	void inputdata() {  
 		cout << "Masukkan NIM : ";
@@ -16,6 +17,7 @@ public:
 		cout << "\nNIM : " << nim << endl;
 		cout << "Nama : " << nama << endl;
 	}
+
 };
 
 class Matakuliah {
@@ -23,6 +25,7 @@ private:
 	string kode;
 	string namamk;
 	int sks;
+
 public:
 	void InputMK();
 	void TampilMK();
@@ -35,4 +38,10 @@ void Matakuliah::InputMK() {		//11
 	cin >> namamk;
 	cout << "Masukkan Sks Mata Kuliah : ";
 	cin >> sks;
+}
+
+void Matakuliah::TampilMK() {
+	cout << "Kode : " << kode << endl;
+	cout << "Nama MataKuliah : " << namamk << endl;
+	cout << "Jumlah SKS : " << sks << endl;
 }
