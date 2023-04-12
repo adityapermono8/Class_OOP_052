@@ -17,3 +17,5 @@ public:
 		cout << "Nama : " << nama << endl;
 	}
 };
+
+class Matakuliah {};
