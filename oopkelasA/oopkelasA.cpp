@@ -25,4 +25,5 @@ private:
 	int sks;
 public:
 	void InputMK();
+	void TampilMK();
 };
